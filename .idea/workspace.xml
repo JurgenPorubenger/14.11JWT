@@ -1,17 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8deb6da-4bbf-4b44-8844-3038c9f6d38e" name="Default Changelist" comment="" />
+    <list default="true" id="c8deb6da-4bbf-4b44-8844-3038c9f6d38e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/caching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/config-chain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/config-descriptors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/configuration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/index-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/files/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/helpers/config-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/helpers/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/partial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/pattern-to-regex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/validation/option-assertions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/validation/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/validation/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/config/validation/removed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/tools/build-external-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transform-ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transform-file-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transform-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/block-hoist-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/file/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/file/generate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/file/merge-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/normalize-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/normalize-opts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/plugin-pass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/util/missing-plugin-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/api/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/api/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/get-possible-plugin-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/get-possible-preset-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/normalize-ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/resolve-from-possible-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/resolve-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/resolve-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/helpers/resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/tools/build-external-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/merge-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/option-manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/parsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/file/options/removed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/internal-plugins/block-hoist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/internal-plugins/shadow-functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/pipeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/plugin-pass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/transformation/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-core/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-loader/lib/Error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-loader/lib/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-loader/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-loader/lib/injectCaller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-loader/lib/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-loader/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/data/built-in-features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/data/plugin-features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/default-includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/module-transformations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/normalize-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/targets-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/transform-polyfill-require-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/chunksorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/DataBaseUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TZmPqH0B6KTQJF3whLEsIN70MB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,10 +174,25 @@
       <option name="presentableId" value="Default" />
       <updated>1573675970128</updated>
       <workItem from="1573675978930" duration="2206000" />
+      <workItem from="1574000078032" duration="11993000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

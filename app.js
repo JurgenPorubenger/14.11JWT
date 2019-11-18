@@ -4,13 +4,17 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors');
-const {verify} = require('jsonwebtoken');
-const {hash,compare} = require('bcrypt');
+require('dotenv').config();
+const {setUpConnection,listNotes,deleteNote,createNote} =require('./utils/DataBaseUtils');
+
+const app = express();
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
-const app = express();
+setUpConnection()
+    .then(message=>console.log(`Connect to DB at port - ${message.connections[0].port}`))
+    .catch(err=>console.log(err));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,6 +26,7 @@ app.use(
       credentials:true,
     })
 );
+
 
 app.use(logger('dev'));
 app.use(express.json());
